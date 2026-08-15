@@ -1,0 +1,43 @@
+# Docker directory (excluded as requested)
+docker/
+
+# Environment files
+.env
+.env*.local
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Next.js / Frontend builds
+frontend/.next/
+frontend/out/
+frontend/build/
+*.tsbuildinfo
+
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+backend/bin/
+backend/tmp/
+backend/uploads/
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
