@@ -1,6 +1,10 @@
 # Docker directory (excluded as requested)
 docker/
 
+# Docs (keep only spec.md)
+docs/*
+!docs/spec.md
+
 # Environment files
 .env
 .env*.local
